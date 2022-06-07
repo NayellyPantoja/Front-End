@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,100;1,200;1,500;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header div{
+    background-color: #222222;
+    color: white;
+}
+
+.idiomas{
+    text-align: right;
+}
+
+.menu{
+    background-color: #F0A83E;
+    color: white;
+    text-align:  right;
+}
+
+.imagen-principal{
+    background-image: url(/Clase-9/img/Slide.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+
+picture{
+    background-image: url(/Clase-9/img/paw.png);
+    color: #F0A83E;
+    background-position: center;
+}
+
+.huella{
+    text-align: center;
+}
+
+em{
+    word-spacing: 8em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.productos div{
+    word-spacing: 15em;
+    color:#F0A83E
+}
+
+.productos{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    background-color: #F0A83E;
+}
+
+footer{
+    background-color: #3C2313;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF
+}
+
+footer h3{
+    font-weight: 700;
+    color:#FFFFFF
+}
+
+footer i{
+    font-size: 70px;
+    color: #786960;  
+}
+
+footer p{
+    background-color: #222222;
+    text-align: center;
+    font-weight: 200;
+    color: white;
+}
