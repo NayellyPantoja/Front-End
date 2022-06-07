@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,100;1,200;1,500;1,700&display=swap');
+
+header {
+    background-attachment: fixed;
+    background-image: url(/Clase8/img/fondobanner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+main{
+    background-attachment: scroll;
+    background-color: 	#C0C0C0;
+    text-align: justify;
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    font-weight: 200;
+    text-align: center;
+    }
+
+Footer {
+    background-color: black;
+    text-align: center;
+    font-size: 70px;
+    }

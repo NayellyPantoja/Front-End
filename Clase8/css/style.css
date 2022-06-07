@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,100;1,200;1,500;1,700&display=swap');
+
+header {
+    background-attachment: fixed;
+    background-image: url(/Clase8/img/fondobanner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main{
+    background-attachment: scroll;
+    background-color: 	#C0C0C0;
+    background-image: url(/Clase8/img/naye.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1{
+font-family: 'Poppins', sans-serif;
+font-size: 90px;
+font-weight: 200;
+text-align: center;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    font-size: 70px;
+}
