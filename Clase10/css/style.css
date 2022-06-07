@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,100;1,200;1,500;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0%;
+}
+.descuentos{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    width: 100%;
+    height: 32px;
+    padding-top: 13px;
+    padding-left: 10px;
+    box-sizing: content-box;    
+    
+}
+
+.heroes{
+    background-color: #00669F;
+    font-size: 40px;
+    height: 111px;
+    width: 100%;
+    padding-top: 55px;
+    padding-left: 20px;
+    box-sizing: content-box;
+}
+
+.contenedor{
+    background-color: #F3F3F3;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    margin: 150px 40px 150px 250px;
+}
+
+.perfil{
+    position: relative;
+    bottom:65px;
+    left: 93px;
+}
+
+.corazon-uno{
+    position: relative;
+    bottom: 300px;
+    left: 20px;
+}
+
+.batman{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.batman-uno{
+    text-align: left;
+    position: relative;
+    bottom: 95px;
+    font-size: 16px;
+}
+
+.contenedor-dos{
+    background-color: #F3F3F3;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    margin: 150px 40px 150px 80px;
+}
+
+.perfil-dos{
+    position: relative;
+    bottom:65px;
+    left: 93px;
+    display: inline-block;
+}
+
+.corazon-dos{
+    position: relative;
+    bottom: 300px;
+    left: 20px;
+}
+
+.Harley{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.Harley-uno{
+    text-align: left;
+    position: relative;
+    bottom: 95px;
+    font-size: 16px;
+}
+
+.contenedor-tres{
+    background-color: #F3F3F3;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    margin: 150px 250px 150px 40px;
+}
+
+.perfil-tres{
+    position: relative;
+    bottom:65px;
+    left: 93px;
+}
+
+.corazon-tres{
+    position: relative;
+    bottom: 300px;
+    left: 20px;
+}
+
+.batman2{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.batman-dos{
+    text-align: left;
+    position: relative;
+    bottom: 95px;
+    font-size: 16px;
+}
+
+p{
+    background-color: #00669F;
+    color: white;
+    text-align: left;
+    position: relative;
+    padding: 20px;
+    box-sizing: content-box;
+}
