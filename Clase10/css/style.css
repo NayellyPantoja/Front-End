@@ -11,7 +11,7 @@ body{
     height: 32px;
     padding-top: 13px;
     padding-left: 10px;
-    box-sizing: content-box;    
+    box-sizing: content-box;   
     
 }
 
@@ -23,30 +23,44 @@ body{
     padding-top: 55px;
     padding-left: 20px;
     box-sizing: content-box;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center ;
+    box-sizing: content-box;
+    margin: 150px auto;
+}
+
+
+.box-uno{
     background-color: #F3F3F3;
     width: 300px;
-    display: inline-block;
     position: relative;
-    display: inline-block;
-    margin: 150px 40px 150px 250px;
+}
+
+.perfil img{
+    border-radius: 50%;
 }
 
 .perfil{
     position: relative;
     bottom:65px;
     left: 93px;
+    border-radius: 50%;
 }
 
-.corazon-uno{
+.corazon{
     position: relative;
     bottom: 300px;
     left: 20px;
 }
 
-.batman{
+.nombre{
     text-align: center;
     position: relative;
     bottom: 80px;
@@ -54,80 +68,19 @@ body{
     font-weight: normal;
 }
 
-.batman-uno{
-    text-align: left;
-    position: relative;
-    bottom: 95px;
-    font-size: 16px;
-}
-
-.contenedor-dos{
+.box-dos{
     background-color: #F3F3F3;
     width: 300px;
-    display: inline-block;
     position: relative;
-    display: inline-block;
-    margin: 150px 40px 150px 80px;
 }
 
-.perfil-dos{
-    position: relative;
-    bottom:65px;
-    left: 93px;
-    display: inline-block;
-}
-
-.corazon-dos{
-    position: relative;
-    bottom: 300px;
-    left: 20px;
-}
-
-.Harley{
-    text-align: center;
-    position: relative;
-    bottom: 80px;
-    font-size: 30px;
-    font-weight: normal;
-}
-
-.Harley-uno{
-    text-align: left;
-    position: relative;
-    bottom: 95px;
-    font-size: 16px;
-}
-
-.contenedor-tres{
+.box-tres{
     background-color: #F3F3F3;
     width: 300px;
-    display: inline-block;
     position: relative;
-    display: inline-block;
-    margin: 150px 250px 150px 40px;
 }
 
-.perfil-tres{
-    position: relative;
-    bottom:65px;
-    left: 93px;
-}
-
-.corazon-tres{
-    position: relative;
-    bottom: 300px;
-    left: 20px;
-}
-
-.batman2{
-    text-align: center;
-    position: relative;
-    bottom: 80px;
-    font-size: 30px;
-    font-weight: normal;
-}
-
-.batman-dos{
+.texto{
     text-align: left;
     position: relative;
     bottom: 95px;
@@ -140,5 +93,8 @@ p{
     text-align: left;
     position: relative;
     padding: 20px;
+    margin: 0px;
     box-sizing: content-box;
 }
+
+
